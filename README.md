@@ -10,12 +10,13 @@ Features
   - "Who is the manager of Sales?"
   - "List all employees in Marketing."
   - "What is the total salary expense for Engineering?"
-
+- Deployed using Flask API server
+  
 Installation & Setup
 
 1.Clone the Repository
 ```
-git clone https://github.com/tejaswini/chat-assistant.git
+git clone https://github.com/Teju9010/chat-assistant.git
 cd chat-assistant
 
 2. Install dependancies
@@ -31,6 +32,17 @@ rasa init
 
 5.rasa shell #starting the chatbot
 
+6. rasa run --enable api
+   python server.py # starting Flask server
+
+7. testing api by
+```curl -X POST "http://localhost:5000/chat" \
+     -H "Content-Type: application/json" \
+     -d "{\"message\": \"Who is the manager of Sales?\"}"
 ```
+
+8.Expected response:
+  [{"recipient_id": "user", "text": "The manager of Sales is Alice."}]
+
 
 
