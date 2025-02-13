@@ -1,0 +1,13 @@
+{
+  "lookup": {
+    "eJyLrq6NBQAEOAGx": "action_listen",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohJbUgsagkF8iOz03MS0xPLaqtjQUAc6Ug3A==": "action_department_manager",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohJbUgsagkF8iOz03MS0xPLaolzkAsGokyPBYA6R9E5g==": "action_listen",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEqhJL8kMSe+ODEnsagyPrWiIDWvOLW2NhYAuEoh1A==": "action_total_salary_expense",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEqhJL8kMSe+ODEnsagyPrWiIDWvOLWWOCOxaiXSglgArq5Hzg==": "action_listen",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohNbcgJ78yNbU4PiOzKDUlPjGtJLWotjYWANkhIh0=": "action_employees_hired_after",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohNbcgJ78yNbU4PiOzKDUlPjGtJLWoljgzsesl1opYAHXhSKk=": "action_listen",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEoBJB6fmluQk1+ZmlpcWxsLAPRiH1w=": "action_list_employees",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEoBJB6fmluQk1+ZmlpcS7xhSJoIGhoLANJiQGY=": "action_listen"
+  }
+}

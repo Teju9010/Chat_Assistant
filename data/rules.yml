@@ -1,0 +1,38 @@
+version: "3.1"
+
+rules:
+
+- rule: Greet the user
+  steps:
+  - intent: greet
+  - action: utter_greet
+
+- rule: Say goodbye
+  steps:
+  - intent: goodbye
+  - action: utter_goodbye
+
+- rule: Get employees by department
+  steps:
+  - intent: list_employees
+  - action: action_list_employees
+
+- rule: Get department manager
+  steps:
+  - intent: department_manager
+  - action: action_department_manager
+
+- rule: Get employees hired after a certain date
+  steps:
+  - intent: employees_hired_after
+  - action: action_employees_hired_after
+
+- rule: Get total salary expense of a department
+  steps:
+  - intent: total_salary_expense
+  - action: action_total_salary_expense
+
+- rule: Handle unkown queries
+  steps:
+  - intent: nlu_fallback
+  - action: utter_default

@@ -1,0 +1,24 @@
+recipe: default.v1
+
+assistant_id: 20250208-134031-several-stool
+
+language: en
+
+pipeline:
+- name: WhitespaceTokenizer
+- name: RegexFeaturizer
+- name: LexicalSyntacticFeaturizer
+- name: CountVectorsFeaturizer
+- name: DIETClassifier
+  constrain_similarities: true
+- name: EntitySynonymMapper
+- name: ResponseSelector
+- name: FallbackClassifier
+  threshold: 0.4
+  ambiguity_threshold: 0.1
+
+policies:
+- name: MemoizationPolicy
+- name: RulePolicy
+- name: UnexpecTEDIntentPolicy
+- name: TEDPolicy

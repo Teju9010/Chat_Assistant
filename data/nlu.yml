@@ -1,0 +1,51 @@
+version: "3.1"
+
+nlu:
+- intent: greet
+  examples: |
+    - Hey
+    - Hello
+    - Hi
+    - Hello there
+    - Hey there
+    - Good morning
+    - Good evening
+    - What's up?
+
+- intent: goodbye
+  examples: |
+    - See you later
+    - Bye
+    - Goodbye
+    - Have a nice day
+    - Talk to you later
+    - See you soon
+
+- intent: list_employees
+  examples: |
+    - Show me all employees in the [Sales](department) department
+    - Who works in the [Engineering](department) department?
+    - List employees in the [Marketing](department) department
+    - Can you show me employees in [Sales](department)?
+    - Which employees belong to the [Engineering](department) team?
+
+- intent: department_manager
+  examples: |
+    - Who is the manager of the [Sales](department) department?
+    - Tell me the manager of the [Engineering](department) department
+    - Can you tell me the head of [Marketing](department)?
+    - Who leads the [Engineering](department) team?
+
+- intent: employees_hired_after
+  examples: |
+    - List all the employees hired after [2022-01-01](date)
+    - Who was hired after [2020-06-10](date)?
+    - Can you tell me who joined after [2019-05-20](date)?
+    - Employees who joined after [2021-09-15](date)
+
+- intent: total_salary_expense
+  examples: |
+    - What is the total salary expense for the [Marketing](department) department?
+    - How much does [Engineering](department) spend on salaries?
+    - Can you calculate the total salary for [Sales](department)?
+    - What is the salary budget for [Marketing](department)?

@@ -1,0 +1,35 @@
+version: "3.1"
+
+stories:
+
+- story: Greet and list employees
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: list_employees
+  - action: action_list_employees
+  
+
+- story: Get department manager after greeting
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: department_manager
+  - action: action_department_manager
+
+- story: Get employees hired after a date
+  steps:
+  - intent: employees_hired_after
+  - action: action_employees_hired_after
+  
+
+- story: Get total salary expense
+  steps:
+  - intent: total_salary_expense
+  - action: action_total_salary_expense
+  
+
+- story: Say goodbye
+  steps:
+  - intent: goodbye
+  - action: utter_goodbye

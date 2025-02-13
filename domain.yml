@@ -1,0 +1,54 @@
+version: "3.1"
+
+intents:
+  - greet
+  - goodbye
+  - list_employees
+  - department_manager
+  - employees_hired_after
+  - total_salary_expense
+
+entities:
+  - department
+  - date
+
+slots:
+  department:
+    type: text
+    influence_conversation: true
+    mappings:
+      - type: from_entity
+        entity: department
+
+  date:
+    type: text
+    influence_conversation: true
+    mappings:
+      - type: from_entity
+        entity: date
+
+responses:
+  utter_greet:
+    - text: "Hey! How can I assist you today?"
+
+  utter_goodbye:
+    - text: "Goodbye! Have a great day!"
+
+  utter_ask_department:
+    - text: "Which department are you referring to?"
+
+  utter_no_data:
+    - text: "I could not find any data for your request."
+  
+  utter_default:
+    - text: "Sorry, I did not understand. Can you rephrase your question?"
+actions:
+  - action_list_employees
+  - action_department_manager
+  - action_employees_hired_after
+  - action_total_salary_expense
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
+

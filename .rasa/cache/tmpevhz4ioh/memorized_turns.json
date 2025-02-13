@@ -1,0 +1,20 @@
+{
+  "lookup": {
+    "eJyLrq6NBQAEOAGx": "action_listen",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohNbcgJ78yNbU4PiOzKDUlPjGtJLWotjYWANkhIh0=": "action_employees_hired_after",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohNbcgJ78yNbU4PiOzKDUlPjGtJLWoljgzsesl1opYAHXhSKk=": "utter_ask_department",
+    "eJytjcEJgDAQBFtJAVaQVkSOQ1cMmhgupyDB3j3Qpw8f/nZhdratZ+NqFuzEvYY1eVfvQIkjvHvKEooiGbsViDEhWVXvEPOyHkChKQgG4lEh5zfn+/afi00NIi4zDcgsGk31Wd1djM5sDg==": "action_listen",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEqhJL8kMSe+ODEnsagyPrWiIDWvOLW2NhYAuEoh1A==": "action_total_salary_expense",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEqhJL8kMSe+ODEnsagyPrWiIDWvOLWWOCOxaiXSglgArq5Hzg==": "utter_ask_department",
+    "eJytjUEKhDAQBL+SB/iCfGWRYXD7EIxjmJksK8G/G9CjBw/euqC7+tP2IbSi+BFPnlaJoZ2BhBfEcEFO5pDerQbtnSQdPQZfnTMZZ9aN8C8Qw/5MeTt95aC6Q4ltpi8Kqy/d9NQ8Hg3Vauo=": "action_listen",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohvSg1taS2NhYA6dwbhQ==": "utter_greet",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohvSg1taSWgBmlJSWpRfEQpbhMiAUAQvc0lw==": "action_listen",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohvSg1taSWgBmlJSWpRfEQpeSZQMAVIPH41NyCnPzK1NTi2tpYAIM/UkI=": "action_list_employees",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohvSg1taSWgBmlJSWpRfEQpeSZQMAVIPH41NyCnPzK1NRiEgxD0kTQ0FgASJxzTA==": "utter_ask_department",
+    "eJylj0EKgDAMBL/SB/iCfkUkFF2kaGtJoyDFv1upB29FvWXDZMi26WhUCoyNTC928VqlMpA3DlrdYbZR4DO7RnBmrM9RtBoZkKPiWEXAVNBvhsoX157gwrzsQHwhexz9lJaOJk40IBgWlx11Z3cCc2OT8A==": "action_listen",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohPT8/JakytbY2FgAh+hxX": "utter_goodbye",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohPT8/JakytZaAKaUlJalF8TDFuE2JBQCMqTcN": "action_listen",
+    "eJydjlEKgCAQBa/iATqBV4lYlnqIkJusaz/i3RPsP+hvHgzDW1tfXMuKm3i3eIl3bQIJJ3j3jjMWgwy3Fuhwooxp3gUFrH80qhmUpvqv8PHiQGa1NJgSCwdo79sDzhpTwg==": "action_department_manager",
+    "eJydjlEKgCAQRK/iATqBV4mQpQYRcpN17Ue8e4J9BkV/M/DmMXNtk6lJcDpaNRxsTR3BMUVYc5c9ZAV3tmRIZwL3qtZ4AbS9OIoqxA30n+HlxYZEorFnF4nJQz4KH4af5MsFwj93zA==": "action_listen"
+  }
+}
