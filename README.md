@@ -44,5 +44,15 @@ rasa init
 8.Expected response:
   [{"recipient_id": "user", "text": "The manager of Sales is Alice."}]
 
+Known Limitations:
+- Currently, only supports basic SQL queries.
+- No authentication/security in API.
+- Needs better error handling for invalid queries.
 
-
+Future Improvements:
+- Host on a VPS for public access.
+- Improve NLP models for better query handling.
+- Frontend UI (React/HTML) for better usability.
+  
+Open source project under the MIT License
+© 2025 Sai Tejaswini - All rights reserved.
